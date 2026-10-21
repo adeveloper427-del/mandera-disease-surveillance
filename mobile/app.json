@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MSDSS",
+    "slug": "mandera-surveillance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "msdss",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mandera.msdss"
+    },
+    "android": {
+      "package": "com.mandera.msdss",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1f7a6e"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 140,
+          "resizeMode": "contain",
+          "backgroundColor": "#174a45"
+        }
+      ]
+    ]
+  }
+}

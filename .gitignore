@@ -1,0 +1,31 @@
+# Dependencies and builds
+node_modules/
+dist/
+web-build/
+.expo/
+*.tsbuildinfo
+
+# Environment files (keep only the empty template)
+.env
+.env.*
+*.local
+!.env.example
+
+# Backend: Supabase project, migrations, functions and seed data stay private
+supabase/
+
+# Android signing key
+mobile/credentials/
+mobile/credentials.json
+*.jks
+*.keystore
+
+# Assistant / tooling files
+.claude/
+scratchpad/
+CLAUDE.md
+AGENTS.md
+
+# Documents and reports
+*.docx
+CropGuardAI_*.html
